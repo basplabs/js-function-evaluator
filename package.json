@@ -1,0 +1,19 @@
+{
+  "name": "js-function-evaluator",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaroopghosh/js-function-evaluator.git"
+  },
+  "author": "Swaroop Ghosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swaroopghosh/js-function-evaluator/issues"
+  },
+  "homepage": "https://github.com/swaroopghosh/js-function-evaluator#readme"
+}
