@@ -1,16 +1,11 @@
+onst express = require('express')
+const app = express()
+const port = 3000
 
-class Index {
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-    
-    constructor(t) {
-        console.log('Test');
-
-        this.t = t;
-    }
-
-    getConvertedValue() {
-        return "Tst";
-    }
-}
-module.exports = Index;
-let i = new Index('as');
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
