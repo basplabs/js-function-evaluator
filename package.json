@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/swaroopghosh/js-function-evaluator.git"
   },
+  "dependencies": {
+    "express": "4.16.4"
+  },
   "author": "Swaroop Ghosh",
   "license": "MIT",
   "bugs": {
