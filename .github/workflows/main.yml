@@ -1,0 +1,25 @@
+- name: AWS ECR
+  # You may pin to the exact commit or the version.
+  # uses: kciter/aws-ecr-action@deed28ca73d748eba97d98847f903a3a77e702ad
+  uses: kciter/aws-ecr-action@v1
+  with:
+    # The AWS access key id
+    access_key_id: 123
+    # The AWS secret access key
+    secret_access_key: 123
+    # AWS Account ID
+    account_id: swaroop_ghosh
+    # Name of your ECR repository
+    repo: testapp-repo
+    # The AWS region
+    region: ap-south-1a
+    # Set this to true to create the repository if it does not already exist
+    #create_repo: # optional
+    # Comma-separated string of ECR image tags
+    #tags: # optional, default is latest
+    # Name of Dockerfile to use
+    dockerfile: Dockerfile
+    # Extra flags to pass to docker build (see docs.docker.com/engine/reference/commandline/build)
+    #extra_build_args: # optional, default is 
+    # Path to Dockerfile, defaults to the working directory
+    path: .
